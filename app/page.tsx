@@ -10,7 +10,7 @@ import { LayoutServicesSection } from "../components/home/LayoutServicesSection"
 import { LayoutSponsorsSection } from "../components/home/LayoutSponsorsSection";
 import { LayoutTeamSection } from "../components/home/LayoutTeamSection";
 import { LayoutTestimonialSection } from "../components/home/LayoutTestimonialSection";
-import { Navbar as LayoutNavbar } from "@/components/layout/navbar";
+import LayoutNavbar from "@/components/layout/navbar";
 import { getAuthSession } from "@/lib/auth/session";
 
 export default async function Home() {
