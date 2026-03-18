@@ -64,3 +64,6 @@ export function ThemeToggle({ mode = "icon", className }: ThemeToggleProps) {
     </Button>
   );
 }
+
+// Compatibility export
+export const ModeToggle = ThemeToggle;
